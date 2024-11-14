@@ -7,8 +7,8 @@ npm install <패키지>
 node app.js
 
 #POST 요청
-curl -X POST http://localhost:포트번호/api/diary ^
--H "Content-Type: application/json" ^
+curl -X POST http://localhost:3030/api/diary \
+-H "Content-Type: application/json" \
 -d "{
   \"title\": \"일기 제목\",
   \"content\": \"일기 내용\",
